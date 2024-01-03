@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import myContext from '../../context/data/myContext';
 import { useParams } from 'react-router';
 import { Timestamp, addDoc, collection, doc, getDoc, onSnapshot, orderBy, query } from 'firebase/firestore';
-import { fireDb } from '../../firebase/FirebaseConfig';
+import { fireDb } from '../../firebase/firebaseConfig';
 import Layout from '../../components/layout/Layout';
 import Loader from '../../components/louder/Louder';
 import Comment from '../../components/comment/Commnet';
